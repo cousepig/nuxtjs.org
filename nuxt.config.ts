@@ -166,6 +166,12 @@ export default withDocus({
         name: 'English'
       },
       {
+        code: 'zh',
+        iso: 'zh-ZH',
+        file: 'zh-ZH.js',
+        name: '中文'
+      },
+      {
         code: 'fr',
         iso: 'fr-FR',
         file: 'fr-FR.js',
