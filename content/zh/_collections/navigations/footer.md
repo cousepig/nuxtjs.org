@@ -1,6 +1,6 @@
 ---
 links:
-  - title: 'About'
+  - title: '关于我们'
     items:
       - title: 'Contact us'
         href: 'mailto:hello@nuxtjs.com'

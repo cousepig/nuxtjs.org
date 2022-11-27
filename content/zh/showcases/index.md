@@ -1,6 +1,6 @@
 ---
 template: blank
-title: 'Showcases'
+title: '工程案例'
 description: 'Discover our selection of websites built with Nuxt.'
 layout:
   fluid: true
@@ -8,7 +8,7 @@ layout:
 
 ::page-hero{descriptionFullWidth}
 #title
-Showcases
+工程案例
 
 #description
   Discover our selection of websites built with Nuxt. This collection is powered by [VueTelescope](https://vuetelescope.com).

@@ -1,8 +1,8 @@
 ---
 links:
-  - title: 'Discover'
+  - title: '发现'
     items:
-      - title: 'Showcases'
+      - title: '工程案例'
         subtitle: 'Selection of websites built with Nuxt'
         slug: 'showcases'
         to: '/showcases'

@@ -9,11 +9,11 @@ export default defineComponent({
   name: 'AdsCarbon',
   mounted() {
     if (this.$refs.carbonads) {
-      const script = document.createElement('script')
-      script.setAttribute('type', 'text/javascript')
-      script.setAttribute('src', 'https://cdn.carbonads.com/carbon.js?serve=CKYILK7U&placement=nuxtjsorg')
-      script.setAttribute('id', '_carbonads_js')
-      this.$refs.carbonads.appendChild(script)
+      // const script = document.createElement('script')
+      // script.setAttribute('type', 'text/javascript')
+      // script.setAttribute('src', 'https://cdn.carbonads.com/carbon.js?serve=CKYILK7U&placement=nuxtjsorg')
+      // script.setAttribute('id', '_carbonads_js')
+      // this.$refs.carbonads.appendChild(script)
     }
   }
 })
