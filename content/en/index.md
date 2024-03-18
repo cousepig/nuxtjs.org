@@ -1,7 +1,7 @@
 ---
 template: blank
 title: 'The Intuitive Vue Framework'
-description: 'Build your next Vue.js application with confidence using Nuxt. An open source framework making web development simple and powerful.'
+description: 'Build your Vue 2 application with confidence using Nuxt 2. An open source framework making web development simple and powerful.'
 bgClass: 'bg-white'
 ---
 
@@ -10,10 +10,10 @@ bgClass: 'bg-white'
 The Intuitive Vue<br>Framework
 
 #description
-Build your next Vue.js application with confidence using Nuxt.<br class="hidden sm:block" /> An open source framework making web development simple and powerful.
+Build your Vue 2 application with confidence using Nuxt 2.<br class="hidden sm:block" /> An open source framework making web development simple and powerful.
 
 #primary-button
-:app-button[40K+ GitHub stars]{ href="https://github.com/nuxt/nuxt.js" icon="IconGitHub" extraClass="text-white bg-sky-black hover:bg-sky-darker leading-4" }
+:app-button[40K+ GitHub stars]{ href="https://github.com/nuxt/nuxt" icon="IconGitHub" extraClass="text-white bg-sky-black hover:bg-sky-darker leading-4" }
 
 #secondary-button
 :app-button[Get started]{ to="/docs/get-started/installation" }
@@ -227,7 +227,7 @@ hoverClass: 'hover:bg-sky-surface'
 title: 'Modules'
 description: 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
 image: '/img/home/explore/gem-explore-2.svg'
-to: 'https://modules.nuxtjs.org'
+to: 'https://nuxt.com/modules'
 hoverClass: 'hover:bg-sky-surface'
 ---
 ::

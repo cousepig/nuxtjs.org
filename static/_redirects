@@ -225,6 +225,8 @@
 /:locale/docs/2.x/deployment/deployment-koyeb /:locale/deployments/koyeb 302!
 /docs/2.x/deployment/deploy-on-moovweb /deployments/layer0 302!
 /:locale/docs/2.x/deployment/deploy-on-moovweb /:locale/deployments/layer0 302!
+/deployments/layer0 /deployments/edgio 302!
+/:locale/deployments/layer0 /:locale/deployments/edgio 302!
 /docs/2.x/deployment/netlify-deployment /deployments/netlify 302!
 /:locale/docs/2.x/deployment/netlify-deployment /:locale/deployments/netlify 302!
 /docs/2.x/deployment/nginx-proxy /deployments/nginx 302!
@@ -357,12 +359,12 @@
 /:locale/team /:locale/teams 302!
 
 #V3
-/v3 https://v3.nuxtjs.org/ 302!
-/:locale/v3 https://v3.nuxtjs.org/ 302!
+/v3 https://nuxt.com/ 302!
+/:locale/v3 https://nuxt.com/ 302!
 
 #Modules
-/modules https://modules.nuxtjs.org/ 302!
-/:locale/modules https://modules.nuxtjs.org/ 302!
+/modules https://nuxt.com/modules/ 302!
+/:locale/modules https://nuxt.com/modules/ 302!
 
 # [LEGACY] Redirect GUIDE URLs
 /guide/themes /themes 301!
@@ -623,7 +625,42 @@
 /faq/ios-phone-numbers /docs/2.x/concepts/server-side-rendering#ios-phone-numbers 301!
 /:locale/faq/ios-phone-numbers /:locale/docs/2.x/concepts/server-side-rendering#ios-phone-numbers 301!
 
-/faq/auth-routes https://github.com/nuxt/nuxt.js/tree/dev/examples/auth-routes 301!
-/:locale/faq/auth-routes https://github.com/nuxt/nuxt.js/tree/dev/examples/auth-routes 301!
-/faq/auth-external-jwt https://github.com/nuxt/nuxt.js/tree/dev/examples/auth-jwt 301!
-/:locale/faq/auth-external-jwt https://github.com/nuxt/nuxt.js/tree/dev/examples/auth-jwt 301!
+/faq/auth-routes https://github.com/nuxt/nuxt/tree/2.x-dev/examples/auth-routes 301!
+/:locale/faq/auth-routes https://github.com/nuxt/nuxt/tree/2.x-dev/examples/auth-routes 301!
+/faq/auth-external-jwt https://github.com/nuxt/nuxt/tree/2.x-dev/examples/auth-jwt 301!
+/:locale/faq/auth-external-jwt https://github.com/nuxt/nuxt/tree/2.x-dev/examples/auth-jwt 301!
+
+# Partners
+
+/partners https://nuxt.com/support/agencies 301!
+/partners/:slug https://nuxt.com/support/agencies/:slug 301!
+/:locale/partners https://nuxt.com/support/agencies 301!
+/:locale/partners/:slug https://nuxt.com/support/agencies/:slug 301!
+
+# Showcases
+
+/showcases https://nuxt.com/showcase 301!
+/:locale/showcases https://nuxt.com/showcase 301!
+
+# Sponsors
+
+/sponsors https://nuxt.com/support/us 301!
+/:locale/sponsors https://nuxt.com/support/us 301!
+
+# Design Kit
+/design https://nuxt.com/design-kit 301!
+/:locale/design https://nuxt.com/design-kit 301!
+
+# Announcements
+
+/announcements https://nuxt.com/blog 301!
+/:locale/announcements https://nuxt.com/blog 301!
+/announcements/:slug https://nuxt.com/blog/:slug 301!
+/:locale/announcements/:slug https://nuxt.com/blog/:slug 301!
+
+# Case Studies
+
+/case-studies https://nuxtlabs.com/blog?category=case-studies 301!
+/:locale/case-studies https://nuxtlabs.com/blog?category=case-studies 301!
+/case-studies/:slug https://nuxtlabs.com/blog/case-studies/:slug 301!
+/:locale/case-studies/:slug https://nuxtlabs.com/blog/case-studies/:slug 301!

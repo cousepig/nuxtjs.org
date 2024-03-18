@@ -3,8 +3,8 @@ import fr from '~docus-i18n/fr-FR'
 export default {
   ...fr,
   banner: {
-    here: 'v3.nuxtjs.org',
-    format: '{nuxt} is out! Discover more about it on {here}'
+    here: 'nuxt.com/docs',
+    format: 'Vous consultez la documentation de Nuxt 2. Rendez vous sur {here} pour la documentation de Nuxt 3.'
   },
   cookies: {
     message: "Nous utilisons des cookies pour mesurer l'audience et améliorer le site !",

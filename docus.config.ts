@@ -1,7 +1,7 @@
 export default {
   title: 'Nuxt',
   description: '',
-  url: 'https://nuxtjs.org',
+  url: 'https://v2.nuxt.com',
   template: 'docs',
   credits: true,
   socialImage: false,
@@ -16,9 +16,9 @@ export default {
     banner: true
   },
   github: {
-    repo: 'nuxt/nuxtjs.org',
+    repo: 'nuxt/website-v2',
     branch: 'main',
-    releases: 'nuxt/nuxt.js'
+    releases: 'nuxt/nuxt'
   },
   theme: {
     header: {
